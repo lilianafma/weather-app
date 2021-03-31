@@ -36,6 +36,4 @@ Run server
 
 **The app run on localhost: 3030**
 
-Request temporary access to the demo server in https://cors-anywhere.herokuapp.com/corsdemo
-
 
