@@ -18,22 +18,16 @@ The current project is a weather app that call to openweathermap API, and show t
 
 Use the package manager **npm** to install.
 
-Install express
+Install dependencies
 ```
-    npm install express
-```
-Install node fetch package
-
-```
-    npm install node-fetch
+    npm install 
 ```
 
 Run server
 
 ```
-    node server
+    node .
 ```
 
 **The app run on localhost: 3030**
-
 

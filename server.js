@@ -15,7 +15,7 @@ app.use(
 		extended: true,
 	})
 )
-  
+
 app.use(bodyParser.json());
 
 app.post('/setFavoritePlaces', (req,res) => {
