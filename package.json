@@ -1,0 +1,24 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "The app show the weather information by country or city.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilianafma/weather-app.git"
+  },
+  "author": "Liliana Meléndez A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilianafma/weather-app/issues"
+  },
+  "homepage": "https://github.com/lilianafma/weather-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
