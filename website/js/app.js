@@ -3,8 +3,7 @@ const addButton = document.querySelector('#add');
 const fragment = document.createDocumentFragment();
 const showButton = document.querySelector('#show');
 const favoriteSection = document.querySelector('.favorite-section');
-//const baseUrl = 'https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?';
-const baseUrl = 'https://api.openweathermap.org/data/2.5/weather?';
+const baseUrl = 'http://api.openweathermap.org/data/2.5/weather?';
 const key = '38c7328c16e64f57d0b06c7632aebdd8';
 let currentPlace = {};
 
@@ -129,13 +128,9 @@ const requestData = async ( method= '', url = '', data = {}) => {
 }
 
 const getWeatherByAPICall = async ( url = '', data = {}) => {
-
     const response = await fetch(url, {
 		method: 'GET', 
-		credentials: 'same-origin', 
-		headers: {
-			'Content-Type': 'application/json',
-		},
+		credentials: 'same-origin'
 	});
 
     try {
